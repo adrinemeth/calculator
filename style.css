@@ -1,0 +1,63 @@
+ body {
+        text-align:center;
+  padding-top: 2%;
+  background: url(http://s12.postimg.org/j29e9lzul/flower_1158875_1280.jpg) no-repeat fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;  
+}
+
+/*font stylings*/
+h1,h5 {
+  font-family: "Courgette", arial;
+}
+h1,p,.operator {
+  color: white;
+}
+h5 {
+  font-size: 200%;
+}
+p{
+  font-size: 24px;
+}
+/*arrangements*/
+.calculator {
+  margin: auto;
+  width: 357px;
+}
+
+.number,.operator,#executer,#clear {
+  width: 80px;
+  height: 80px;
+  margin: 3px;
+  background-color: white;
+  border: 2px solid black;
+}
+#clear{
+  width: 80px;
+}
+.header, .operator{
+  background-color: #A7052B;
+  border: 3px solid black;
+}
+.operator {
+  border: none;
+}
+.plus-button{
+  height: 176px;
+  float: right;
+}
+.buttons{
+  background: #fff;
+}
+li{
+    display: inline-block;
+}
+ul{
+  padding: 0;
+}
+#result-field{
+  width: 340px;
+  margin: 5px;
+}
